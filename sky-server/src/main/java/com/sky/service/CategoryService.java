@@ -4,6 +4,8 @@ import com.sky.dto.CategoryDTO;
 import com.sky.dto.CategoryPageQueryDTO;
 import com.sky.entity.Category;
 import com.sky.result.PageResult;
+import com.sky.vo.DishVO;
+
 import java.util.List;
 
 public interface CategoryService {
@@ -46,4 +48,7 @@ public interface CategoryService {
      * @return
      */
     List<Category> list(Integer type);
+
+
+
 }
